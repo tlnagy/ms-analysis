@@ -1,0 +1,102 @@
+Raw file	Experiment	Enzyme	Enzyme mode	Enzyme first search	Enzyme mode first search	Use enzyme first search	Variable modifications	Multi modifications	Variable modifications first search	Use variable modifications first search	Requantify	Multiplicity	Max. missed cleavages	Labels0	LC-MS run type	Time-dependent recalibration	MS	MS/MS	MS3	MS/MS Submitted	MS/MS Submitted (SIL)	MS/MS Submitted (ISO)	MS/MS Submitted (PEAK)	MS/MS Identified	MS/MS Identified (SIL)	MS/MS Identified (ISO)	MS/MS Identified (PEAK)	MS/MS Identified [%]	MS/MS Identified (SIL) [%]	MS/MS Identified (ISO) [%]	MS/MS Identified (PEAK) [%]	Peptide Sequences Identified	Peaks	Peaks Sequenced	Peaks Sequenced [%]	Peaks Repeatedly Sequenced	Peaks Repeatedly Sequenced [%]	Isotope Patterns	Isotope Patterns Sequenced	Isotope Patterns Sequenced (z>1)	Isotope Patterns Sequenced [%]	Isotope Patterns Sequenced (z>1) [%]	Isotope Patterns Repeatedly Sequenced	Isotope Patterns Repeatedly Sequenced [%]	Recalibrated	Av. Absolute Mass Deviation [ppm]	Mass Standard Deviation [ppm]	Av. Absolute Mass Deviation [mDa]	Mass Standard Deviation [mDa]	Label free norm param
+QE20150928-23	EtOH_Kin3KO_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3491	22170	0	25098	19092	0	6006	4396	4323	0	73	17.52	22.64	NaN	1.22	3418	389167	19547	5.02	1614	8.26	63272	15914	15329	25.15	35.08	2476	15.56	+	0.50138	0.70743	0.3498	0.53782	
+QE20150928-24	EtOH_Kin3KO_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		4156	27868	0	30914	24486	0	6428	8470	8298	0	172	27.4	33.89	NaN	2.68	6621	479548	24922	5.2	1849	7.42	84838	20977	19953	24.73	36.44	2967	14.14	+	0.41667	0.59326	0.30126	0.45624	
+QE20150928-34	Shmoo_CaCl2_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3405	24032	0	27074	20840	0	6234	4793	4697	0	96	17.7	22.54	NaN	1.54	3693	388167	21427	5.52	1639	7.65	65416	17538	16899	26.81	36.87	2605	14.85	+	0.48645	0.69501	0.35577	0.54996	
+QE20150928-35	Shmoo_CaCl2_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		4462	23960	0	27511	20315	0	7196	6186	6035	0	151	22.49	29.71	NaN	2.1	4800	445067	21043	4.73	1827	8.68	74069	17051	16041	23.02	36.51	2674	15.68	+	0.45616	0.65044	0.33494	0.50671	
+QE20150928-37	Pynd_AlkKO_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		7645	3909	0	4596	3218	0	1378	1202	1198	0	4	26.15	37.23	NaN	0.29	686	255338	3260	1.28	472	14.48	16857	2190	2101	12.99	37.21	781	35.66	+	0.33603	0.48207	0.28391	0.44151	
+QE20150928-38	Pynd_AlkKO_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		4085	28521	0	31923	25097	0	6826	8150	8002	0	148	25.53	31.88	NaN	2.17	6187	456745	25659	5.62	1901	7.41	84656	21434	20391	25.32	38.03	3015	14.07	+	0.42224	0.60353	0.31554	0.48422	
+QE20150928-40	Pynd_5FC_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3513	21751	0	24935	18451	0	6484	3433	3378	0	55	13.77	18.31	NaN	0.85	2596	352623	19240	5.46	1516	7.88	56246	15224	14645	27.07	37.59	2540	16.68	+	0.46868	0.642	0.3318	0.48504	
+QE20150928-41	Pynd_5FC_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		9330	4455	0	6204	2706	0	3498	146	128	0	18	2.35	4.73	NaN	0.51	104	430845	3132	0.73	718	22.92	19194	1710	1465	8.91	16.91	603	35.26	+	0.28208	0.33693	0.13506	0.16904	
+QE20150928-43	Shmoo_Cmk1KO_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3331	23757	0	26864	20642	0	6222	4575	4482	0	93	17.03	21.71	NaN	1.49	3359	402145	21045	5.23	1691	8.04	66854	17127	16472	25.62	36.58	2693	15.72	+	0.46711	0.65441	0.35102	0.54552	
+QE20150928-44	Shmoo_Cmk1KO_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3276	23958	0	28829	19077	0	9752	3115	3072	0	43	10.81	16.1	NaN	0.44	1892	345677	20029	5.79	2419	12.08	44222	13900	13544	31.43	40.79	3616	26.01	+	0.44794	0.62433	0.366	0.5485	
+QE20150928-45	Shmoo_Cmk1KO_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3639	26298	0	32957	19631	0	13326	4757	4670	0	87	14.43	23.79	NaN	0.65	3429	345960	22096	6.39	2537	11.48	48138	15261	13836	31.7	45.6	3298	21.61	+	0.41853	0.59054	0.34713	0.53736	
+QE20150928-46	Shmoo_Cmk1KO_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		7415	12065	0	18498	5604	0	12894	599	582	0	17	3.24	10.39	NaN	0.13	317	229868	8392	3.65	1263	15.05	15070	3189	2864	21.16	55.23	1592	49.92	+	0.32921	0.4402	0.26869	0.3754	
+QE20150928-51	Apubscrawl_Swe1KO_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3677	20593	0	23730	17438	0	6292	4000	3922	0	78	16.86	22.49	NaN	1.24	3125	343070	18110	5.28	1338	7.39	55173	14643	14167	26.54	37.97	2064	14.1	+	0.50902	0.72049	0.35956	0.54654	
+QE20150928-52	Apubscrawl_Swe1KO_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3572	31995	0	38495	25483	0	13012	7032	6896	0	136	18.27	27.06	NaN	1.05	4537	429126	26945	6.28	3086	11.45	65519	19623	18677	29.95	39.85	4020	20.49	+	0.3824	0.53742	0.32712	0.49978	
+QE20150928-53	Apubscrawl_Swe1KO_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3938	30235	0	34316	26154	0	8162	8863	8717	0	146	25.83	33.33	NaN	1.79	6501	474730	26764	5.64	2285	8.54	84786	21734	20670	25.63	38.17	3501	16.11	+	0.41084	0.59753	0.31962	0.49566	
+QE20150928-55	Apubscrawl_Cerulenin_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3228	24636	0	30266	18990	0	11276	3091	3020	0	71	10.21	15.9	NaN	0.63	1817	417044	20500	4.92	2433	11.87	51134	14171	13774	27.71	37.1	3500	24.7	+	0.45876	0.64343	0.35899	0.54301	
+QE20150928-56	Apubscrawl_Cerulenin_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3764	21213	0	24702	17716	0	6986	3655	3585	0	70	14.8	20.24	NaN	1	2764	364727	18686	5.12	1444	7.73	55821	14701	14181	26.34	37.25	2240	15.24	+	0.46173	0.64445	0.32272	0.48014	
+QE20150928-57	Apubscrawl_Cerulenin_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3698	32156	0	38232	25974	0	12258	7225	7095	0	130	18.9	27.32	NaN	1.06	4702	454134	27400	6.03	3018	11.01	69137	20436	19612	29.56	39.22	3953	19.34	+	0.40337	0.56953	0.34504	0.53736	
+QE20150928-58	Apubscrawl_Cerulenin_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3815	31342	0	35609	26923	0	8686	9142	9006	0	136	25.67	33.45	NaN	1.57	6827	488924	27770	5.68	2274	8.19	87561	22535	21505	25.74	37.03	3362	14.92	+	0.42207	0.60156	0.32418	0.50005	
+QE20150928-60	Whangee_Tpk1KO_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3650	23040	0	28260	17800	0	10460	2868	2836	0	32	10.15	15.93	NaN	0.31	1832	389188	19381	4.98	2172	11.21	41686	13071	12704	31.36	42.34	3335	25.51	+	0.42446	0.59896	0.34691	0.52619	
+QE20150928-61	Whangee_Tpk1KO_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3592	22566	0	26136	18996	0	7140	3615	3547	0	68	13.83	18.67	NaN	0.95	2667	380612	20056	5.27	1578	7.87	58977	15659	15086	26.55	36.46	2455	15.68	+	0.4344	0.61909	0.30338	0.46263	
+QE20150928-62	Whangee_Tpk1KO_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3316	34290	0	39936	28618	0	11318	9831	9635	0	196	24.62	33.67	NaN	1.73	6753	493069	29595	6	2870	9.7	84173	22708	21457	26.98	39.28	4241	18.68	+	0.41376	0.59229	0.32943	0.50567	
+QE20150928-63	Whangee_Tpk1KO_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3715	29677	0	34858	24436	0	10422	7099	6978	0	121	20.37	28.56	NaN	1.16	5381	477285	26201	5.49	2114	8.07	80834	20407	19317	25.25	36.3	3085	15.12	+	0.40518	0.57036	0.29744	0.451	
+QE20150928-65	Whangee_tunicamycin_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3291	23447	0	31487	15019	0	16468	2401	2317	0	84	7.63	15.43	NaN	0.51	1503	436826	18117	4.15	2022	11.16	39869	10939	10595	27.44	38.26	2942	26.89	+	0.54767	0.76513	0.42049	0.62131	
+QE20150928-66	Whangee_tunicamycin_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3431	21162	0	27298	14986	0	12312	2430	2377	0	53	8.9	15.86	NaN	0.43	1824	366123	17152	4.68	1582	9.22	41919	11735	11186	27.99	38.72	2338	19.92	+	0.48154	0.71091	0.34333	0.57068	
+QE20150928-67	Whangee_tunicamycin_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3321	32920	0	40278	25212	0	15066	6291	6115	0	176	15.62	24.25	NaN	1.17	3857	456128	27171	5.96	3358	12.36	61662	18810	17876	30.51	39.3	4437	23.59	+	0.42171	0.60898	0.36784	0.56955	
+QE20150928-68	Whangee_tunicamycin_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3375	31297	0	38024	24558	0	13466	7197	7014	0	183	18.93	28.56	NaN	1.36	4820	457492	25981	5.68	3028	11.65	69886	18860	17832	26.99	38.38	3966	21.03	+	0.39464	0.56255	0.29663	0.44617	
+QE20150928-70	Onion_rapamycin_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3698	19302	0	27392	11204	0	16188	1404	1353	0	51	5.13	12.08	NaN	0.32	1030	320551	14718	4.59	1859	12.63	27879	7672	7176	27.52	43.85	2193	28.58	+	0.41997	0.56506	0.31573	0.46353	
+QE20150928-71	Onion_rapamycin_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		5386	13241	0	20335	6147	0	14188	883	866	0	17	4.34	14.09	NaN	0.12	529	291777	9567	3.28	1512	15.8	18276	3797	3370	20.78	36.42	1435	37.79	+	0.38054	0.55856	0.31458	0.51245	
+QE20150928-72	Onion_rapamycin_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3741	32217	0	40195	24201	0	15994	6922	6719	0	203	17.22	27.76	NaN	1.27	4020	515052	25484	4.95	3781	14.84	58776	16473	15520	28.03	37.78	4718	28.64	+	0.40886	0.5771	0.35045	0.52812	
+QE20150928-73	Onion_rapamycin_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3418	30871	0	37723	23997	0	13726	6566	6457	0	109	17.41	26.91	NaN	0.79	4960	498440	26397	5.3	2441	9.25	79909	19493	18333	24.39	36.28	3255	16.7	+	0.42103	0.60063	0.31229	0.48199	
+QE20150928-77	Onion_Atg1KO_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3490	22095	0	29945	14235	0	15710	1457	1432	0	25	4.87	10.06	NaN	0.16	1081	359811	17816	4.95	1944	10.91	34980	10508	10083	30.04	40.95	2612	24.86	+	0.50328	0.68871	0.3797	0.58124	
+QE20150928-78	Onion_Atg1KO_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3903	18875	0	25085	12665	0	12420	1755	1716	0	39	7	13.55	NaN	0.31	1088	313828	14446	4.6	2161	14.96	29854	8286	7805	27.76	38.88	2696	32.54	+	0.5271	0.76131	0.39914	0.63749	
+QE20150928-79	Onion_Atg1KO_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		5930	17578	0	29826	5312	0	24514	524	509	0	15	1.76	9.58	NaN	0.06	297	360403	11921	3.31	1536	12.88	18078	3268	2808	18.08	35.83	1293	39.57	+	0.31945	0.43363	0.24478	0.35012	
+QE20150928-80	Onion_Atg1KO_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		6874	14298	0	24603	3993	0	20610	399	394	0	5	1.62	9.87	NaN	0.02	209	347655	9571	2.75	1207	12.61	15622	2338	1904	14.97	31.2	1049	44.87	+	0.38799	0.56143	0.3096	0.46271	
+QE20150928-82	EtOH_Kin3KO_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		6938	7657	0	12894	2406	0	10488	261	261	0	0	2.02	10.85	NaN	0	134	292166	5316	1.82	699	13.15	13222	1457	1122	11.02	29.16	592	40.63	+	0.42071	0.59058	0.35029	0.53544	
+QE20150928-83	EtOH_Kin3KO_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		7323	12616	0	22481	2751	0	19730	202	193	0	9	0.9	7.02	NaN	0.05	107	348784	8119	2.33	861	10.6	15464	1670	1247	10.8	24.04	647	38.74	+	0.38191	0.55123	0.31586	0.4725	
+QE20150928-85	Pynd_5FC_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		7169	5937	0	7960	3896	0	4064	153	142	0	11	1.92	3.64	NaN	0.27	87	415596	3548	0.85	1119	31.54	15059	1937	1755	12.86	20.64	936	48.32	+	0.31804	0.41249	0.15753	0.20084	
+QE20150928-86	Pynd_5FC_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3230	27829	0	45285	10373	0	34912	1280	1200	0	80	2.83	11.57	NaN	0.23	370	409179	19195	4.69	3074	16.01	25414	5496	4721	21.63	28.52	2327	42.34	+	0.36769	0.50706	0.33274	0.49376	
+QE20150928-89	Pynd_AlkKO_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3293	25481	0	31258	19640	0	11618	5601	5499	0	102	17.92	28	NaN	0.88	3733	440272	21397	4.86	2374	11.1	57102	15402	14441	26.97	35.16	2838	18.43	+	0.4205	0.59516	0.3525	0.54228	
+QE20150928-90	Pynd_AlkKO_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3621	29001	0	38646	19350	0	19296	1963	1945	0	18	5.08	10.05	NaN	0.09	1341	417927	23564	5.64	2777	11.78	45915	13653	12879	29.74	40.53	3975	29.11	+	0.48688	0.67166	0.4022	0.6072	
+QE20150928-92	Apubscrawl_Swe1KO_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3443	22976	0	28638	17294	0	11344	2755	2694	0	61	9.62	15.58	NaN	0.54	1835	420608	18933	4.5	2156	11.39	47495	12797	12429	26.94	35.4	3100	24.22	+	0.457	0.63886	0.34822	0.53002	
+QE20150928-94	EtOH_menadione_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3290	25319	0	31486	19148	0	12338	3880	3749	0	131	12.32	19.58	NaN	1.06	2483	364581	20051	5.5	2841	14.17	44335	13272	12735	29.94	38.02	3571	26.91	+	0.43609	0.62365	0.32207	0.50655	
+QE20150928-95	EtOH_menadione_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3634	21966	0	27294	16632	0	10662	3261	3144	0	117	11.95	18.9	NaN	1.1	1944	359541	17116	4.76	2283	13.34	43903	11620	11155	26.47	36.22	2910	25.04	+	0.47491	0.68911	0.34042	0.52407	
+QE20150928-96	EtOH_menadione_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3418	33838	0	39631	27923	0	11708	9834	9538	0	296	24.81	34.16	NaN	2.53	5901	478274	27701	5.79	3839	13.86	74271	20433	19366	27.51	37.64	5036	24.65	+	0.42591	0.61877	0.34794	0.53747	
+QE20150928-97	EtOH_menadione_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3215	33409	0	40145	25985	0	14160	8151	7941	0	210	20.3	30.56	NaN	1.48	5358	466452	27831	5.97	2910	10.46	77383	20675	19659	26.72	36.72	4065	19.66	+	0.45099	0.63552	0.3423	0.51205	
+QE20150928-101	Control_UbP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3653	20781	0	26732	14830	0	11902	2288	2229	0	59	8.56	15.03	NaN	0.5	1331	315591	15991	5.07	2469	15.44	30585	9464	9152	30.94	39.95	3133	33.1	+	0.41039	0.5786	0.32877	0.49133	
+QE20150928-102	Control_Ub	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3649	22778	0	26103	19453	0	6650	4797	4721	0	76	18.38	24.27	NaN	1.14	3729	411483	20683	5.03	1229	5.94	65519	16870	16223	25.75	35.28	2092	12.4	+	0.45309	0.64801	0.32256	0.50916	
+QE20150928-103	Control_WCLP	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term);Phospho (STY)			False	False	1	2		Standard		3545	31508	0	38838	24174	0	14664	5932	5832	0	100	15.27	24.13	NaN	0.68	3993	447548	26708	5.97	2899	10.85	63292	18957	17955	29.95	36.34	3720	19.62	+	0.39232	0.54438	0.33143	0.50327	
+QE20150928-104	Control_WCL	Trypsin/P	Specific			False	Oxidation (M);Acetyl (Protein N-term)			False	False	1	2		Standard		3809	31126	0	35988	26264	0	9724	8589	8427	0	162	23.87	32.09	NaN	1.67	6478	515681	27660	5.36	2070	7.48	87255	22182	21120	25.42	35.89	3270	14.74	+	0.41601	0.58997	0.31212	0.47014	
+Apubscrawl_Cerulenin_Ub																																2764																		
+Apubscrawl_Cerulenin_UbP																																1817																		
+Apubscrawl_Cerulenin_WCL																																6827																		
+Apubscrawl_Cerulenin_WCLP																																4702																		
+Apubscrawl_Swe1KO_Ub																																3125																		
+Apubscrawl_Swe1KO_UbP																																1835																		
+Apubscrawl_Swe1KO_WCL																																6501																		
+Apubscrawl_Swe1KO_WCLP																																4537																		
+Control_Ub																																3729																		
+Control_UbP																																1331																		
+Control_WCL																																6478																		
+Control_WCLP																																3993																		
+EtOH_Kin3KO_Ub																																3418																		
+EtOH_Kin3KO_UbP																																134																		
+EtOH_Kin3KO_WCL																																6621																		
+EtOH_Kin3KO_WCLP																																107																		
+EtOH_menadione_Ub																																1944																		
+EtOH_menadione_UbP																																2483																		
+EtOH_menadione_WCL																																5358																		
+EtOH_menadione_WCLP																																5901																		
+Onion_Atg1KO_Ub																																1088																		
+Onion_Atg1KO_UbP																																1081																		
+Onion_Atg1KO_WCL																																209																		
+Onion_Atg1KO_WCLP																																297																		
+Onion_rapamycin_Ub																																529																		
+Onion_rapamycin_UbP																																1030																		
+Onion_rapamycin_WCL																																4960																		
+Onion_rapamycin_WCLP																																4020																		
+Pynd_5FC_Ub																																2596																		
+Pynd_5FC_UbP																																87																		
+Pynd_5FC_WCL																																104																		
+Pynd_5FC_WCLP																																370																		
+Pynd_AlkKO_Ub																																686																		
+Pynd_AlkKO_UbP																																3733																		
+Pynd_AlkKO_WCL																																6187																		
+Pynd_AlkKO_WCLP																																1341																		
+Shmoo_CaCl2_Ub																																3693																		
+Shmoo_CaCl2_WCL																																4800																		
+Shmoo_Cmk1KO_Ub																																3359																		
+Shmoo_Cmk1KO_UbP																																1892																		
+Shmoo_Cmk1KO_WCL																																317																		
+Shmoo_Cmk1KO_WCLP																																3429																		
+Whangee_Tpk1KO_Ub																																2667																		
+Whangee_Tpk1KO_UbP																																1832																		
+Whangee_Tpk1KO_WCL																																5381																		
+Whangee_Tpk1KO_WCLP																																6753																		
+Whangee_tunicamycin_Ub																																1824																		
+Whangee_tunicamycin_UbP																																1503																		
+Whangee_tunicamycin_WCL																																4820																		
+Whangee_tunicamycin_WCLP																																3857																		
+Total																	210801	1174012	0	1465513	879335	0	586178	213419	208886	0	4533	14.56	23.75	NaN	0.77	25567	20060828					2576557	679267	645137	26.36	37.45	139762	20.58		0.43147	0.61444	0.33251	0.51021	

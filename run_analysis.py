@@ -28,9 +28,10 @@ def main(directory):
     # converted to booleans so that the pandas parser is faster and less
     # grouchy
     psites = pd.read_table(os.path.join(directory, "Phospho (STY)Sites.txt"), 
-            converters={677: bool, 211:bool, 678:bool})
+            converters={"Reverse": bool, "Diagnostic peak":bool,
+                "Potential contaminant":bool})
     prot_groups = pd.read_table(os.path.join(directory, "proteinGroups.txt"), 
-            converters={421: bool, 422:bool})
+            converters={"Reverse": bool, "Potential contaminant":bool})
 
     # TODO: Actual implement some kind of analysis here
     yield

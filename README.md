@@ -23,7 +23,7 @@ location of the ms_data directory containing the data from the MS
 experiment e.g.
 
 ```
-/
+ms_data/
 ├── Phospho\ (STY)Sites.txt
 ├── experimentalDesignTemplate.txt
 ├── parameters.txt

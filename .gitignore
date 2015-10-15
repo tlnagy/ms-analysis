@@ -55,3 +55,8 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# ms-analysis stuff
+plots/
+.ipynb_checkpoints/
+*.ipynb

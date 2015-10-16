@@ -131,9 +131,8 @@ def cluster(log_ratios, cophenetic_cutoff=0.5):
         gene names in that cluster
     """
     dists = scipy.spatial.distance.pdist(log_ratios.values)
-    row_linkage = scipy.cluster.hierarchy.linkage(dists, method='complete')
-    col_linkage = scipy.cluster.hierarchy.linkage(
-        scipy.spatial.distance.pdist(log_ratios.values.T), method='complete')
+    row_linkage = scipy.cluster.hierarchy.linkage(log_ratios.values, method='ward')
+    col_linkage = scipy.cluster.hierarchy.linkage(log_ratios.values.T, method='ward')
     log_ratios["cluster"] = scipy.cluster.hierarchy.fcluster(row_linkage, cophenetic_cutoff*dists.max(), 'distance')
     return row_linkage, col_linkage, {name: group.index.tolist() for name, group in log_ratios.groupby("cluster")}
 

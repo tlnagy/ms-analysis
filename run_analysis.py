@@ -138,7 +138,7 @@ def cluster(log_ratios, cophenetic_cutoff=0.5):
     return row_linkage, col_linkage, {name: group.index.tolist() for name, group in log_ratios.groupby("cluster")}
 
 
-def plot_heatmap(df, row_linkage=None, col_linkage=None, font_size=10, legend_title="", path=""):
+def plot_heatmap(df, row_linkage=None, col_linkage=None, font_size=10, legend_title="", path="", wmult=0.5, hmult=0.75):
     """
     Plots a given df using the provided row_linkage and col_linkage output from
     scipy's linkage function. The other parameters are for adjusting the plot
@@ -154,9 +154,9 @@ def plot_heatmap(df, row_linkage=None, col_linkage=None, font_size=10, legend_ti
     # fix ugly positioning
     hm_pos, rd_pos, cd_pos = g.ax_heatmap.get_position(), g.ax_row_dendrogram.get_position(), \
                              g.ax_col_dendrogram.get_position()
-    g.ax_heatmap.set_position([hm_pos.x0-rd_pos.width*.25, hm_pos.y0, hm_pos.width*0.5, hm_pos.height])
-    g.ax_row_dendrogram.set_position([rd_pos.x0, rd_pos.y0, rd_pos.width*0.75, rd_pos.height])
-    g.ax_col_dendrogram.set_position([cd_pos.x0-rd_pos.width*.25, cd_pos.y0, cd_pos.width*0.5, cd_pos.height/2])
+    g.ax_heatmap.set_position([hm_pos.x0-rd_pos.width*(1-hmult), hm_pos.y0, hm_pos.width*wmult, hm_pos.height])
+    g.ax_row_dendrogram.set_position([rd_pos.x0, rd_pos.y0, rd_pos.width*hmult, rd_pos.height])
+    g.ax_col_dendrogram.set_position([cd_pos.x0-rd_pos.width*(1-hmult), cd_pos.y0, cd_pos.width*wmult, cd_pos.height/2])
     cax_pos = g.cax.get_position()
     g.cax.set_position([cax_pos.x0*.75, cax_pos.y0*.25, cax_pos.width*0.5, cax_pos.height*0.5])
     g.cax.set_title(legend_title, fontsize=font_size)

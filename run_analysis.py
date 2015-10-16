@@ -164,7 +164,7 @@ def plot_heatmap(df, row_linkage=None, col_linkage=None, font_size=10, legend_ti
     plt.savefig(os.path.join(path, "sig_heatmap.png"), dpi=300, bbox_inches="tight")
 
 
-def main(directory):
+def main(directory, wmult):
     # import data as pandas dataframes, the contaminant columns are
     # converted to booleans so that the pandas parser is faster and less
     # grouchy
@@ -184,16 +184,17 @@ def main(directory):
         plot_scatter_intensities(intensity_cols, experiment1="EtOH_Kin3KO_WCL", path=path)
         plot_scatter_intensities(intensity_cols, experiment1="EtOH_menadione_WCL", path=path)
         plot_heatmap(log_ratios, row_linkage=row_linkage, col_linkage=col_linkage,
-                     legend_title="log normed\nintensity\nchange vs WT", path=path)
+                     legend_title="log normed\nintensity\nchange vs WT", path=path, wmult=float(wmult))
 
 if __name__ == "__main__":
     parser = HelpParser(description='Analyze MS data for the Et0h group')
     parser.add_argument('-d', '--dir', help='Path to the directory\
             containing the MaxQuant files', required=True)
+    parser.add_argument('-w', '--width-mult', nargs="?", help="Width multiplier")
     args = vars(parser.parse_args())
     
     if os.path.isdir(args["dir"]):
-        main(args["dir"])
+        main(args["dir"], args["width_mult"])
     else:
         sys.stderr.write('error: Not a valid directory\n')
         sys.exit(2)

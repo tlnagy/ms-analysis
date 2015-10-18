@@ -90,7 +90,7 @@ def plot_normed_intensities(normed_intensities, path=""):
     overlap post-normalization
     """
     for col in normed_intensities.columns:
-        sns.kdeplot(np.log2(normed_intensities[col]), label=col, shade=True)
+        sns.kdeplot(np.log2(normed_intensities[col]).dropna(), label=col, shade=True)
         plt.legend(bbox_to_anchor=(1.3, 0.5), loc="center right")
     sns.despine()
     sns.axlabel("Log$_2$ Normalized Intensities", "Density")
@@ -163,7 +163,7 @@ def plot_heatmap(df, row_linkage=None, col_linkage=None, font_size=10, legend_ti
     plt.savefig(os.path.join(path, "sig_heatmap.png"), dpi=300, bbox_inches="tight")
 
 
-def main(directory, wmult):
+def main(directory, wmult = 0.5):
     # import data as pandas dataframes, the contaminant columns are
     # converted to booleans so that the pandas parser is faster and less
     # grouchy
@@ -189,9 +189,11 @@ if __name__ == "__main__":
     parser = HelpParser(description='Analyze MS data for the Et0h group')
     parser.add_argument('-d', '--dir', help='Path to the directory\
             containing the MaxQuant files', required=True)
-    parser.add_argument('-w', '--width-mult', nargs="?", help="Width multiplier")
+    parser.add_argument('-w', '--width-mult', nargs="?", help="Width multiplier, use a smaller value for lots of genes",
+                        type=float, default=0.5)
     args = vars(parser.parse_args())
-    
+
+    print(args)
     if os.path.isdir(args["dir"]):
         main(args["dir"], args["width_mult"])
     else:
